@@ -13,7 +13,7 @@ app.set('view engine', 'hbs')
 
 app.get('/', function (req, res) {
 	res.render('./views/Home', {
-		title: 'M.S. - ' + monthNames[new Date().getMonth()],
+		title: 'M.S. Y.B. - ' + monthNames[new Date().getMonth()],
 		cards: [
 			{
 				title: 'Our Changing Planet',
